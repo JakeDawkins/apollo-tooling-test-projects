@@ -6,4 +6,4 @@ module.exports = {
       url: "https://graphql-pokemon.now.sh",
     }
   }
-}
+};
