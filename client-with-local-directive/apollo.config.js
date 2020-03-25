@@ -13,7 +13,6 @@ module.exports = {
 //   client: {
 //     name: 'test',
 //     service: {
-//       name: 'JakeDawkins-8347',
-//     },
+//       name: 'acephei'//     },
 //   },
 // };

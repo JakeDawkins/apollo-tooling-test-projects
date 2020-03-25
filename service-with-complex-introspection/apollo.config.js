@@ -1,6 +1,6 @@
 module.exports = {
   service: {
-    name: 'JakeDawkins-8347',
+    name: 'acephei',
     endpoint: {
       url: 'http://localhost:4000',
       headers: {
@@ -10,6 +10,6 @@ module.exports = {
     },
   },
   engine: {
-    apiKey: 'service:JakeDawkins-8347:YQcf_sFPLUdoA_nWIT9iPg',
+    apiKey: 'service:acephei:RanDomLyG3N3RAT3D5stuff',
   },
 };

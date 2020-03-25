@@ -1,6 +1,6 @@
 module.exports = {
   service: {
-    name: 'JakeDawkins-9920',
+    name: 'acephei'
   },
   engine: {
     frontend: 'https://engine-staging.apollographql.com',
