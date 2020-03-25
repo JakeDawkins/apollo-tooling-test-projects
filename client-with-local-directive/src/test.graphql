@@ -1,0 +1,20 @@
+query New {
+  launches {
+    cursor
+    launches @myClientOnlyDirective(field: "string") {
+      id
+      rocket {
+        id
+        name
+        type
+      }
+      site
+    }
+    hasMore
+  }
+  me {
+    trips {
+      id
+    }
+  }
+}

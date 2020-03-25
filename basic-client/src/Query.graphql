@@ -1,0 +1,15 @@
+query CharactersQuery($anArg: [Float]!) {
+  characters {
+    results {
+      ...TestFragment
+      test2(anArg: $anArg)
+      ... on Character {
+        aliased: test2(anArg: $anArg)
+      }
+    }
+  }
+}
+
+fragment TestFragment on Character {
+  tester
+}

@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "jake-federation",
+  "alias": ["demo.trashpanda.dev"],
+  "builds": [{ "src": "services/*/index.js", "use": "@now/node-server" }],
+  "routes": [{ "src": "/services/(.*)", "dest": "/services/$1/index.js" }]
+}
