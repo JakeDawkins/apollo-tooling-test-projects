@@ -34,6 +34,10 @@ monorepo. Commands on a specific project should be run from that project's direc
 For example, for running codegen on the `ts-client` project, you should first be
 `cd`ed into that project.
 
+Currently, the Apollo VS Code extension does _not_ support the multi-root workspace
+feature in VS Code. You must open the monorepo at the root or separately for a
+single project.
+
 ## Basic client
 
 This is a simple apollo client project, no bells or whistles. It uses a local
