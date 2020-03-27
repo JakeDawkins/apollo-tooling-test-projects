@@ -16,6 +16,6 @@
     "apollo-server": "^2.7.1",
     "dotenv": "^8.0.0",
     "graphql": "^14.4.2",
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.2"
   }
 }

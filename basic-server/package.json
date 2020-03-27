@@ -9,7 +9,7 @@
   "dependencies": {
     "apollo-server": "latest",
     "graphql": "latest",
-    "nodemon": "^1.18.4"
+    "nodemon": "^2.0.2"
   },
   "engines": {
     "node": "8.x"
