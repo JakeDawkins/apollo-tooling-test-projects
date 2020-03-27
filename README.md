@@ -11,11 +11,11 @@ manual testing of Apollo's own tooling (like the CLI and VS Code extension).
 Below is a list of projects included and a summary of each. I've included a quick
 reference of the features of each project in the following format:
 
-- 🚀 Requires an Apollo Graph Manager Service & api key
-- 📄 Uses a local schema file
 - 🏃‍♀ Client project
 - 💻 Service project
 - 🕸 Federated Service Project
+- 🚀 Requires an Apollo Graph Manager Service & api key
+- 📄 Uses a local schema file
 - 📐 TypeScript
 - 💪 JavaScript
 - 🎉 Multiple Languages
@@ -38,8 +38,8 @@ files in `src`.
 
 This is a simple `apollo-server` project with a schema defined in a `.js` file.
 
-- 🚀 Requires an Apollo Graph Manager Service & api key
 - 💻 Service project
+- 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
 
 ## Client with local directives
@@ -47,8 +47,8 @@ This is a simple `apollo-server` project with a schema defined in a `.js` file.
 This is a client that leverages local state and client-only directives. It extends
 the remote schema with its own schema.
 
-- 🚀 Requires an Apollo Graph Manager Service & api key
 - 🏃‍♀ Client project
+- 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
 
 ## Languages
@@ -73,8 +73,8 @@ This is an apollo-server project which requires an auth header to run introspect
 This is a collection of a few federated services and a gateway. More details about
 these services can be found in this directory's `README.md`.
 
-- 🚀 Requires an Apollo Graph Manager Service & api key
 - 🕸 Federated Service Project
+- 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
 
 ## Typescript client
