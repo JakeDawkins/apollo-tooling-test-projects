@@ -1,0 +1,21 @@
+{
+  "name": "launches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/federation": "^0.7.2",
+    "apollo-datasource": "^0.6.1",
+    "apollo-datasource-rest": "^0.6.1",
+    "apollo-server": "^2.7.1",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1"
+  }
+}

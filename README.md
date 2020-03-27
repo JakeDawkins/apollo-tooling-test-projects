@@ -24,6 +24,16 @@ For a more detailed explanation of a project and available commands to run for
 testing, see each project's `README.md`. The following sample projects are in
 this repository:
 
+## Monorepo setup
+
+Surprise! This repository _is_ a monorepo containing multiple projects. Note
+how each project listed has _its own_ `apollo.config.js` file. This may seem
+a bit cumbersome (and it is), but it is the correct way right now to set up a
+monorepo. Commands on a specific project should be run from that project's directory.
+
+For example, for running codegen on the `ts-client` project, you should first be
+`cd`ed into that project.
+
 ## Basic client
 
 This is a simple apollo client project, no bells or whistles. It uses a local
@@ -68,12 +78,15 @@ This is an apollo-server project which requires an auth header to run introspect
 - 📄 Uses a local schema file
 - 💪 JavaScript
 
-## Federated services
+## Federated fullstack tutorial
 
-This is a collection of a few federated services and a gateway. More details about
+This is a modified version of Apollo's [fullstack tutorial app](https://www.apollographql.com/docs/tutorial/introduction/)
+that uses apollo federation to build a graph. This is a collection of a few
+federated services, a gateway, and a client that consumes it. More details about
 these services can be found in this directory's `README.md`.
 
 - 🕸 Federated Service Project
+- 🏃‍♀ Client project
 - 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
 
