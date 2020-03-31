@@ -4,26 +4,12 @@
   "description": "Simple example covering the very basics of Graphql, and Apollo",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
-  },
-  "devDependencies": {
-    "apollo": "^2.25.0"
+    "start": "nodemon server.js",
+    "check": "npx apollo service:check"
   },
   "dependencies": {
     "apollo-server": "latest",
     "graphql": "^0.13.2",
     "nodemon": "^2.0.2"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
-  },
-  "license": "MIT",
-  "keywords": [
-    "apollo",
-    "glitch",
-    "graphql"
-  ]
+  }
 }

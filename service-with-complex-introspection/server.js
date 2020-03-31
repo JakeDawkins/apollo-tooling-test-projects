@@ -3,15 +3,25 @@ const { ApolloServer, gql } = require('apollo-server');
 // Construct a schema, using GraphQL schema language
 const typeDefs = gql`
   type Query {
-    # my comment
-    hello(a: String): String
-    test: String
-    me: User
-    wow: String
+    characters: CharacterList
   }
 
-  type User {
-    firstName: String
+  type CharacterList {
+    results: [Character]
+  }
+
+  type Character {
+    id: ID
+    name: String
+    gender: String
+    image: String
+    origin: Origin
+    test2(anArg: [Float]!): [Float!]!
+    tester: [Float!]!
+  }
+
+  type Origin {
+    id: ID
   }
 `;
 
@@ -25,6 +35,6 @@ const server = new ApolloServer({
   },
 });
 
-server.listen().then(({ url }) => {
+server.listen({ port: 4001 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });

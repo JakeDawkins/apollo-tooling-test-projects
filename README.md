@@ -85,6 +85,7 @@ This is an apollo-server project which requires an auth header to run introspect
 - 💻 Service project
 - 📄 Uses a local schema file
 - 💪 JavaScript
+- ✅ Runnable with `npm i && npm start`
 
 ## Federated fullstack tutorial
 

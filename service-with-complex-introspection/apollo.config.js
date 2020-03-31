@@ -1,15 +1,11 @@
 module.exports = {
   service: {
-    name: 'JakeDawkins-8347',
+    name: 'tooling-test-projects',
     endpoint: {
-      url: 'http://localhost:4000',
+      url: 'http://localhost:4001',
       headers: {
-        authorization: 'Bearer lkjfalkfjadkfjeopknavadf',
+        authorization: 'Bearer literally-anything-here',
       },
-      // skipSSLValidation: true // optional, disables SSL validation check
     },
-  },
-  engine: {
-    apiKey: 'service:JakeDawkins-8347:YQcf_sFPLUdoA_nWIT9iPg',
   },
 };
