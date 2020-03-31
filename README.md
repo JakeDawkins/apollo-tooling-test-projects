@@ -68,15 +68,18 @@ the remote schema with its own schema.
 - 🏃‍♀ Client project
 - 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
+- ❌ Not Runnable
 
-## Languages
+## Language Tests with Multiple Schemas
 
-This is a very simple project with a couple files containing graphql operations
-in files of different languages (js, dart, and python).
+This is a project with a couple files containing graphql operations in files of
+different languages (js, dart, and python). This uses multiple local schema files,
+each containing a portion of the schema.
 
 - 🏃‍♀ Client project
-- 📄 Uses a local schema file
+- 📄 Uses multiple local schema files
 - 🎉 Multiple Languages
+- ❌ Not Runnable
 
 ## Service with complex introspection
 
@@ -98,12 +101,3 @@ these services can be found in this directory's `README.md`.
 - 🏃‍♀ Client project
 - 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
-
-## Typescript client
-
-This is similar to the `basic-client` project except it uses TypeScript and generated
-types instead of JavaScript.
-
-- 🏃‍♀ Client project
-- 📄 Uses a local schema file
-- 📐 TypeScript

@@ -1,0 +1,7 @@
+type CharacterList {
+  results: [Character]
+}
+
+extend type Character {
+  name: String
+}

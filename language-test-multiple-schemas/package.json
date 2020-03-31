@@ -1,0 +1,11 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "#sample #apollo #client",
+  "keywords": [],
+  "main": "src/index.js",
+  "scripts": {
+    "codegen": "npx apollo client:codegen --target=json types.json",
+    "extract": "npx apollo client:extract"
+  }
+}

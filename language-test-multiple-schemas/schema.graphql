@@ -1,0 +1,18 @@
+type Query {
+  characters: CharacterList
+}
+
+# CharacterList is defined in schema2.graphql
+
+type Character {
+  id: ID
+  gender: String
+  image: String
+  origin: Origin
+  test2(anArg: [Float]!): [Float!]!
+  tester: [Float!]!
+}
+
+type Origin {
+  id: ID
+}
