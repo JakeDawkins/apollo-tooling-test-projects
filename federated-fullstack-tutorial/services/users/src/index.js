@@ -42,7 +42,7 @@ const server = new ApolloServer({
   dataSources,
   context,
   engine: {
-    apiKey: process.env.ENGINE_API_KEY,
+    apiKey: process.env.APOLLO_KEY,
     ...internalEngineDemo,
   },
 });

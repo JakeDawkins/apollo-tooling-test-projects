@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "push": "apollo service:push --serviceName=launches --serviceURL=http://anything.com/1",
+    "check": "apollo service:check --serviceName=launches",
+    "list": "apollo service:list"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@apollo/federation": "^0.7.2",
     "apollo-datasource": "^0.6.1",
@@ -17,8 +18,5 @@
     "dotenv": "^8.0.0",
     "graphql": "^14.4.2",
     "nodemon": "^2.0.2"
-  },
-  "devDependencies": {
-    "apollo": "^2.25.0"
   }
 }
