@@ -1,19 +1,12 @@
 module.exports = {
   client: {
     name: 'My Client Project',
+    // make sure the directives file is picked up, since it's not under src/
     includes: ['src/**/*.graphql', './directives.graphql'],
-    service: {
-      name: 'my-project',
-      localSchemaFile: './schema.graphql',
-    },
+    // todo: see why service.name doesn't work
+    service: 'tooling-test-projects',
+    // directives that are handled on the client that shouldn't be sent to
+    // AGM to be checked, because they're not part of the published schema
+    clientOnlyDirectives: ['myClientOnlyDirective'],
   },
 };
-
-// module.exports = {
-//   client: {
-//     name: 'test',
-//     service: {
-//       name: 'JakeDawkins-8347',
-//     },
-//   },
-// };

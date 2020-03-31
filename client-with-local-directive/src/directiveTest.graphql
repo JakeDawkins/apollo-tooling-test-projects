@@ -1,0 +1,8 @@
+query MyDirectiveTestQuery {
+  characters {
+    results {
+      id @myClientOnlyDirective(field: "oh hai there")
+      name
+    }
+  }
+}
