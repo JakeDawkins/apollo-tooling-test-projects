@@ -107,5 +107,5 @@ const server = new ApolloServer({
 });
 
 server
-  .listen({ port: 40011 })
+  .listen({ port: 4011 })
   .then(({ url }) => console.log(`🚀 app running at ${url}`));

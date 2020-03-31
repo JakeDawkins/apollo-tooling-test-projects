@@ -6,7 +6,8 @@ import {
   fireEvent,
   waitForElement,
 } from '../../test-utils';
-import BookTrips, { BOOK_TRIPS, GET_LAUNCH } from '../book-trips';
+import BookTrips, { BOOK_TRIPS } from '../book-trips';
+import { GET_LAUNCH } from '../cart-item';
 
 const mockLaunch = {
   __typename: 'Launch',
@@ -48,7 +49,7 @@ describe('book trips', () => {
       },
     ];
     const { getByTestId } = renderApollo(
-      <BookTrips cartItems={[1]} />,
+      <BookTrips cartItems={['1']} />,
       { mocks, addTypename: false },
     );
 

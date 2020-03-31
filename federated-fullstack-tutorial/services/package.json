@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd launches && npm i && cd .. && cd users && npm i && cd ..",
     "start-gateway": "nodemon gateway.js",
     "start-service-users": "npm start --prefix=users",
     "start-service-launches": "npm start --prefix=launches",

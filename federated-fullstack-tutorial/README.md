@@ -1,25 +1,23 @@
-# Apollo tutorial
+# Federated Fullstack Tutorial
 
-This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
+This is a modified version of the fullstack app for the
+[Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
+
+This version includes a backend that has been rewritten to work with Apollo Federation.
+
+- 🕸 Federated Service Project
+- 🏃‍♀ Client project
+- 🚀 Requires an Apollo Graph Manager Service & api key
+- 💪 JavaScript
 
 ## File structure
 
 The app is split out into two folders:
-- `start`: Starting point for the tutorial
-- `final`: Final version
 
-From within the `start` and `final` directories, there are two folders (one for `server` and one for `client`).
+- `client`: User-facing frontend react app
+- `services`: This includes a gateway, users and launches services.
 
 ## Installation
 
-To run the app, run these commands in two separate terminal windows from the root:
-
-```bash
-cd final/server && npm i && npm start
-```
-
-and
-
-```bash
-cd final/client && npm i && npm start
-```
+To install and run the portions of this project, check the readme in the respective
+directories :)

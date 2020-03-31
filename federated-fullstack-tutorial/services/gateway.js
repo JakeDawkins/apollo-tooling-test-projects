@@ -3,8 +3,8 @@ const { ApolloGateway, RemoteGraphQLDataSource } = require('@apollo/gateway');
 
 const gateway = new ApolloGateway({
   serviceList: [
-    { name: 'users', url: 'http://localhost:4000/graphql' },
-    { name: 'launches', url: 'http://localhost:4001/graphql' },
+    { name: 'users', url: 'http://localhost:4012/graphql' },
+    { name: 'launches', url: 'http://localhost:4011/graphql' },
   ],
   buildService({ name, url }) {
     return new RemoteGraphQLDataSource({
