@@ -1,0 +1,12 @@
+type MyTester {
+  testField: String
+}
+
+extend type FilmCharactersConnection {
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+extend type Person {
+  birthYear: String
+}

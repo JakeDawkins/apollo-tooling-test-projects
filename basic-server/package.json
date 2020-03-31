@@ -1,0 +1,16 @@
+{
+  "name": "apollo-demo",
+  "version": "0.0.1",
+  "description": "Simple example covering the very basics of Graphql, and Apollo",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "push": "npx apollo service:push --endpoint=http://localhost:4000",
+    "check": "npx apollo service:check --endpoint=http://localhost:4000"
+  },
+  "dependencies": {
+    "apollo-server": "latest",
+    "graphql": "latest",
+    "nodemon": "^2.0.2"
+  }
+}

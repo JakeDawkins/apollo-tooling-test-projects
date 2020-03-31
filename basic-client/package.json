@@ -1,0 +1,10 @@
+{
+  "name": "test-client",
+  "version": "1.0.0",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {},
+  "scripts": {
+    "codegen": "npx apollo client:codegen --target=typescript"
+  }
+}

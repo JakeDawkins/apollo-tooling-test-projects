@@ -1,0 +1,3 @@
+extend type Origin {
+  name: String
+}

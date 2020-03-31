@@ -1,0 +1,21 @@
+type Query {
+  characters: CharacterList
+}
+
+type CharacterList {
+  results: [Character]
+}
+
+type Character {
+  id: ID
+  name: String
+  gender: String
+  image: String
+  origin: Origin
+  test2(anArg: [Float]!): [Float!]!
+  tester: [Float!]!
+}
+
+type Origin {
+  id: ID
+}
