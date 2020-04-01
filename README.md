@@ -28,13 +28,14 @@ this repository:
 
 ## Monorepo setup
 
-Surprise! This repository _is_ a monorepo containing multiple projects. Note
-how each project listed has _its own_ `apollo.config.js` file. This may seem
-a bit cumbersome (and it is), but it is the correct way right now to set up a
-monorepo. Commands on a specific project should be run from that project's directory.
+The `federated-fullstack-tutorial` _is_ a monorepo containing multiple projects. Note
+how each project (like `client`, `launches`, `users`, and gateway) has _its own_
+`apollo.config.js` file. This may seem a bit cumbersome (and it is), but it is
+the correct way right now to set up a monorepo.
 
-For example, for running codegen on the `ts-client` project, you should first be
-`cd`ed into that project.
+Commands on a specific project should be run from that project's directory.
+For example, for running codegen on the `ts-client` project, you should first
+be `cd`ed into that project.
 
 Currently, the Apollo VS Code extension does _not_ support the multi-root workspace
 feature in VS Code. You must open the monorepo at the root or separately for a
@@ -101,3 +102,4 @@ these services can be found in this directory's `README.md`.
 - 🏃‍♀ Client project
 - 🚀 Requires an Apollo Graph Manager Service & api key
 - 💪 JavaScript
+- ✅ Runnable

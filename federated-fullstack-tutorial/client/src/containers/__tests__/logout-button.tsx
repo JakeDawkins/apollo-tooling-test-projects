@@ -24,10 +24,10 @@ describe('logout button', () => {
     // check to make sure the cache's contents have been updated
     const response: any = cache.readQuery({
       query: gql`
-        query IsUserLoggedIn {
+        query LoggedIn {
           isLoggedIn @client
         }
-      `
+      `,
     });
     const { isLoggedIn } = response;
 
